@@ -123,7 +123,7 @@ def boost_deps():
         native.new_http_archive(
             name = "boost",
             urls = [
-                "https://%s.dl.sourceforge.net/project/boost/boost/1.67.0/boost_1_67_0.tar.gz" % m
+                "http://10.17.88.194:8080/boost_1_67_0.tar.gz" % m
                 for m in SOURCEFORGE_MIRRORS
             ],
             build_file = "@com_github_nelhage_rules_boost//:BUILD.boost",
