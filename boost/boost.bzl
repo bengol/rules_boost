@@ -123,9 +123,9 @@ def boost_deps():
         native.new_http_archive(
             name = "boost",
             urls = [
-                "http://10.17.88.194:8080/boost_1_67_0.tar.gz"
+                "http://10.17.88.194:8080/boost_1_72_0.tar.gz"
             ],
             build_file = "@com_github_nelhage_rules_boost//:BUILD.boost",
-            strip_prefix = "boost_1_67_0",
-            sha256 = "8aa4e330c870ef50a896634c931adf468b21f8a69b77007e45c444151229f665",
+            strip_prefix = "boost_1_72_0",
+            sha256 = "c66e88d5786f2ca4dbebb14e06b566fb642a1a6947ad8cc9091f9f445134143f",
         )
